@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -5,15 +6,76 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Emploi Pro Cameroun</title>
 <style>
-body{font-family:Arial,sans-serif;margin:0;background:#f3f6fa;color:#222}header{background:#073b75;color:white;padding:25px 15px;text-align:center}header h1{margin:0}nav{background:#052b54;padding:12px;text-align:center}nav a{color:white;margin:0 10px;text-decoration:none}main{padding:25px 15px;max-width:850px;margin:auto}.hero{background:white;padding:25px;border-radius:12px;text-align:center;box-shadow:0 2px 8px #ddd}.hero h2{color:#073b75}.products{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:15px;margin-top:20px}.card{background:white;padding:20px;border-radius:10px;box-shadow:0 2px 8px #ddd}.price{color:#087443;font-weight:bold}footer{text-align:center;background:#052b54;color:white;padding:18px;margin-top:30px}button{background:#087443;color:white;border:0;border-radius:6px;padding:12px 18px}
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#17243a;line-height:1.6}
+header{background:#073b75;color:white;padding:24px 18px;text-align:center}
+header h1{margin:0;font-size:28px}
+header p{margin:8px 0 0}
+nav{background:#052b54;padding:12px;text-align:center}
+nav a{color:white;text-decoration:none;margin:0 10px;font-weight:bold}
+.hero{padding:45px 20px;text-align:center;background:#e3efff}
+.hero h2{font-size:29px;color:#073b75;margin:0 0 12px}
+.hero p{max-width:600px;margin:0 auto 22px}
+.btn{display:inline-block;background:#087443;color:white;padding:12px 20px;border-radius:7px;text-decoration:none;font-weight:bold}
+section{padding:28px 18px;max-width:950px;margin:auto}
+h2{text-align:center;color:#073b75}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+.card{background:white;padding:20px;border-radius:12px;box-shadow:0 3px 12px #00000010}
+.card h3{color:#073b75;margin-top:0}
+.price{font-size:20px;font-weight:bold;color:#087443}
+.note{background:#fff7dc;padding:15px;border-radius:8px}
+footer{background:#052b54;color:white;text-align:center;padding:22px}
+footer a{color:#fff}
 </style>
 </head>
 <body>
-<header><h1>Emploi Pro Cameroun</h1><p>Prépare ton avenir professionnel avec les bons outils</p></header>
-<nav><a href="#accueil">Accueil</a><a href="#produits">Produits</a><a href="#contact">Contact</a></nav>
-<main id="accueil"><section class="hero"><h2>Bienvenue sur Emploi Pro Cameroun</h2><p>Découvre des guides pratiques pour préparer ton CV, réussir tes entretiens et rechercher un emploi au Cameroun.</p><button onclick="document.getElementById('produits').scrollIntoView({behavior:'smooth'})">Découvrir les produits</button></section>
-<section id="produits"><h2>Nos produits numériques</h2><div class="products"><article class="card"><h3>Guide pour créer un CV professionnel</h3><p>Apprends à présenter tes compétences et tes expériences.</p><p class="price">Prix à définir</p></article><article class="card"><h3>Guide de préparation aux entretiens</h3><p>Prépare tes réponses aux questions fréquentes des recruteurs.</p><p class="price">Prix à définir</p></article><article class="card"><h3>Modèles de lettres de motivation</h3><p>Des exemples pour préparer tes candidatures.</p><p class="price">Prix à définir</p></article></div></section>
-<section id="contact"><h2>Contact</h2><p>Pour toute question sur nos produits, contacte notre boutique.</p><p>Les moyens de paiement et les coordonnées seront ajoutés prochainement.</p></section></main>
-<footer><p>© 2026 Emploi Pro Cameroun</p></footer>
+<header>
+<h1>Emploi Pro Cameroun</h1>
+<p>Les outils numériques pour réussir votre recherche d'emploi</p>
+</header>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#produits">Nos produits</a>
+<a href="#contact">Contact</a>
+</nav>
+<div class="hero" id="accueil">
+<h2>Préparez votre avenir professionnel</h2>
+<p>Découvrez des guides et des modèles pratiques pour préparer votre CV, rédiger vos lettres de motivation et mieux réussir vos candidatures au Cameroun.</p>
+<a class="btn" href="#produits">Découvrir nos produits</a>
+</div>
+<section id="produits">
+<h2>Nos produits numériques</h2>
+<div class="cards">
+<div class="card">
+<h3>Guide pour créer un CV professionnel</h3>
+<p>Apprenez à présenter vos compétences et vos expériences dans un CV clair et convaincant.</p>
+<p class="price">Bientôt disponible</p>
+</div>
+<div class="card">
+<h3>Modèles de lettres de motivation</h3>
+<p>Des exemples à adapter à vos candidatures et à votre parcours professionnel.</p>
+<p class="price">Bientôt disponible</p>
+</div>
+<div class="card">
+<h3>Guide de préparation aux entretiens</h3>
+<p>Préparez vos réponses et découvrez des conseils pour réussir vos entretiens d'embauche.</p>
+<p class="price">Bientôt disponible</p>
+</div>
+</div>
+</section>
+<section>
+<div class="note">
+<strong>Information :</strong> Nos produits sont en préparation. Aucun paiement n'est demandé pour le moment.
+</div>
+</section>
+<section id="contact">
+<h2>Contact</h2>
+<p style="text-align:center">Vous avez une question sur nos futurs guides numériques ? Revenez bientôt pour découvrir nos informations de contact.</p>
+</section>
+<footer>
+<p><strong>Emploi Pro Cameroun</strong></p>
+<p>Des outils pratiques pour votre avenir professionnel.</p>
+<p>© 2026 Emploi Pro Cameroun</p>
+</footer>
 </body>
 </html>
