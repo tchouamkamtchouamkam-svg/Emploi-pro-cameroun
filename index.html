@@ -122,20 +122,40 @@ footer a{color:#fff}
 
 <script>
 function filtrerEmplois() {
-  const recherche = document.getElementById("rechercheEmploi").value.toLowerCase();
-  const offres = document.querySelectorAll("#listeEmplois .offre");
+  const champ = document.getElementById("rechercheEmploi");
+  const liste = document.getElementById("listeEmplois");
+  const resultat = document.getElementById("aucunResultat");
+
+  if (!champ || !liste) return;
+
+  const recherche = champ.value
+    .trim()
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+
+  const offres = liste.querySelectorAll(".offre");
   let visibles = 0;
 
   offres.forEach(function(offre) {
-    const correspond = offre.textContent.toLowerCase().includes(recherche);
-    offre.style.display = correspond ? "block" : "none";
+    const texte = offre.textContent
+      .toLowerCase()
+      .normalize("NFD")
+      .replace(/[\u0300-\u036f]/g, "");
+
+    const correspond = texte.includes(recherche);
+    offre.style.display = correspond ? "" : "none";
+
     if (correspond) visibles++;
   });
 
-  document.getElementById("aucunResultat").style.display =
-    visibles ? "none" : "block";
+  if (resultat) {
+    resultat.style.display =
+      visibles === 0 ? "block" : "none";
+  }
 }
 </script>
+
 
 </body>
 </html>
