@@ -9,13 +9,13 @@
 <title>Emploi Pro Cameroun</title>
 <style>
 *{box-sizing:border-box;scroll-behavior:smooth}
-body{margin:0;font-family:Arial,sans-serif;background:#f7f8f5;color:#263238;line-height:1.6}
-header{background:#075b38;color:white;text-align:center;padding:28px 15px}
+body{margin:0;font-family:Arial,sans-serif;background:#f5f3ee;color:#24324a;line-height:1.6}
+header{background:#243b64;color:#fff;text-align:center;padding:28px 15px}
 header h1{margin:0 0 8px}
-nav{background:#06482e;padding:12px 8px;display:flex;justify-content:center;flex-wrap:wrap;gap:7px}
+nav{background:#172b4d;padding:12px 8px;display:flex;justify-content:center;flex-wrap:wrap;gap:7px}
 nav a{color:white;text-decoration:none;font-weight:bold;padding:8px;border-radius:6px}
-nav a:hover{background:#18784c}
-.hero{background:#075b38;color:white;text-align:center;padding:35px 16px 42px}
+nav a:hover{background:#3d5680}
+.hero{background:#f0b94a;color:#243b64;text-align:center;padding:35px 16px 42px}
 .hero h2{font-size:27px}
 .hero p{max-width:700px;margin:12px auto 20px}
 .btn{display:inline-block;background:#138447;color:white;text-decoration:none;border:0;border-radius:8px;padding:12px 16px;margin:5px;font-weight:bold;cursor:pointer;text-align:center}
@@ -23,15 +23,15 @@ nav a:hover{background:#18784c}
 section{padding:35px 16px;scroll-margin-top:10px}
 section h2{text-align:center;margin-top:0;font-size:26px}
 .intro{text-align:center;max-width:750px;margin:0 auto 22px}
-#emplois{background:#e4f3ff}
-#produits{background:#fff0dc}
-#conseils{background:#f0e8ff}
-#contact{background:#e4f6e9}
+#emplois{background:#eaf2fa}
+#produits{background:#fff0df}
+#conseils{background:#eee7fa}
+#contact{background:#e2f3e8}
 .search-box{max-width:700px;margin:20px auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}
 input{width:100%;padding:13px;border:1px solid #b9cbd4;border-radius:8px;font-size:15px}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:1100px;margin:22px auto}
 .card{background:white;border-radius:12px;padding:20px;box-shadow:0 3px 12px #00000012;display:flex;flex-direction:column;align-items:flex-start}
-.card h3{margin:0 0 10px;color:#075b38;font-size:20px}
+.card h3{margin:0 0 10px;color:#243b64;font-size:20px}
 .card p{margin:6px 0 14px}
 .card .btn{margin-top:auto}
 .product-image{width:100%;height:175px;object-fit:contain;border-radius:8px;margin-bottom:14px;background:white}
@@ -42,7 +42,7 @@ input{width:100%;padding:13px;border:1px solid #b9cbd4;border-radius:8px;font-si
 .tip{background:white;border-radius:10px;padding:16px;box-shadow:0 2px 8px #0000000d}
 .tip h3{color:#6840a0;margin-top:0}
 .contact-box{background:white;max-width:650px;padding:22px;border-radius:12px;margin:20px auto;text-align:center;box-shadow:0 3px 12px #00000012}
-footer{background:#063e29;color:white;text-align:center;padding:20px 12px}
+footer{background:#172b4d;color:white;text-align:center;padding:20px 12px}
 footer a{color:white}
 @media(max-width:600px){header h1{font-size:25px}.hero h2{font-size:23px}section h2{font-size:23px}.search-box{grid-template-columns:1fr}.cards{grid-template-columns:1fr}nav{gap:4px}nav a{font-size:14px;padding:7px}}
 </style>
@@ -147,7 +147,6 @@ const cartes=Array.from(document.querySelectorAll(".job-card"));
 const boutonPlus=document.getElementById("voir-plus");
 const messageVide=document.getElementById("aucun-resultat");
 let toutAfficher=false;
-
 function filtrerEmplois(){
  const mot=motCle.value.trim().toLocaleLowerCase("fr");
  const lieu=ville.value.trim().toLocaleLowerCase("fr");
