@@ -3,524 +3,175 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-<meta name="google-site-verification" content="7hVMcOnvm7mM3P8OFDEZ93PKUwl8Gmmcn3SPJGpNGXk" />
-
-<meta name="description" content="Emploi Pro Cameroun : offres d'emploi, conseils et produits numériques pour préparer votre candidature.">
-
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google-site-verification" content="7hVMcOnvm7mM3P8OFDEZ93PKUwl8Gmmcn3SPJGpNGXk">
+<meta name="description" content="Emploi Pro Cameroun : offres d'emploi, CV, lettres de motivation et conseils professionnels.">
 <title>Emploi Pro Cameroun</title>
-
 <style>
-:root {
-  --bleu: #0b4ea2;
-  --bleu-clair: #1675d1;
-  --fond: #f3f7fc;
-  --texte: #18304f;
-}
-
-* {
-  box-sizing: border-box;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: var(--texte);
-  background: var(--fond);
-}
-
-header {
-  padding: 28px 15px;
-  text-align: center;
-  color: white;
-  background: linear-gradient(135deg, var(--bleu), var(--bleu-clair));
-}
-
-header h1 {
-  margin: 0 0 8px;
-  font-size: 30px;
-}
-
-header p {
-  max-width: 700px;
-  margin: auto;
-}
-
-nav {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 9px;
-  margin-top: 20px;
-}
-
-nav a {
-  padding: 9px 13px;
-  border-radius: 8px;
-  background: white;
-  color: var(--bleu);
-  text-decoration: none;
-  font-weight: bold;
-}
-
-main {
-  width: 94%;
-  max-width: 1100px;
-  margin: 25px auto;
-}
-
-section {
-  padding: 21px;
-  margin-bottom: 25px;
-  border-radius: 13px;
-  background: white;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.06);
-}
-
-h2 {
-  margin-top: 0;
-  color: var(--bleu);
-}
-
-.intro {
-  color: #586b82;
-}
-
-.search-row {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 10px;
-  margin: 17px 0;
-}
-
-input, select {
-  width: 100%;
-  min-width: 0;
-  padding: 12px;
-  border: 1px solid #cbd8e8;
-  border-radius: 8px;
-  background: white;
-  font-size: 16px;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 14px;
-  margin-top: 17px;
-}
-
-.job, .product {
-  padding: 15px;
-  border: 1px solid #dce6f2;
-  border-radius: 11px;
-  background: white;
-}
-
-.job h3, .product h3 {
-  margin: 0 0 8px;
-  color: var(--bleu);
-  font-size: 18px;
-}
-
-.job p, .product p {
-  color: #586b82;
-}
-
-.tag {
-  display: inline-block;
-  margin: 0 5px 8px 0;
-  padding: 3px 8px;
-  border-radius: 20px;
-  background: #eaf3ff;
-  color: var(--bleu);
-  font-size: 13px;
-}
-
-.button {
-  display: inline-block;
-  padding: 10px 13px;
-  border-radius: 8px;
-  background: var(--bleu);
-  color: white;
-  text-decoration: none;
-  font-weight: bold;
-  text-align: center;
-}
-
-.product img {
-  display: block;
-  width: 100%;
-  max-width: 230px;
-  height: 155px;
-  margin: 0 auto 12px;
-  object-fit: contain;
-}
-
-.notice {
-  padding: 12px;
-  border-left: 4px solid var(--bleu-clair);
-  border-radius: 6px;
-  background: #edf5ff;
-}
-
-.hidden {
-  display: none !important;
-}
-
-footer {
-  padding: 22px 12px;
-  text-align: center;
-  color: #586b82;
-}
-
-@media (max-width: 600px) {
-  .search-row {
-    grid-template-columns: 1fr;
-  }
-
-  section {
-    padding: 16px;
-  }
-
-  header h1 {
-    font-size: 26px;
-  }
-}
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f7f8f5;color:#263238;line-height:1.6}
+header{background:#075b38;color:white;text-align:center;padding:28px 15px}
+header h1{margin:0 0 8px}
+nav{background:#06482e;padding:12px 8px;display:flex;justify-content:center;flex-wrap:wrap;gap:7px}
+nav a{color:white;text-decoration:none;font-weight:bold;padding:8px;border-radius:6px}
+nav a:hover{background:#18784c}
+.hero{background:#075b38;color:white;text-align:center;padding:35px 16px 42px}
+.hero h2{font-size:27px}
+.hero p{max-width:700px;margin:12px auto 20px}
+.btn{display:inline-block;background:#138447;color:white;text-decoration:none;border:0;border-radius:8px;padding:12px 16px;margin:5px;font-weight:bold;cursor:pointer;text-align:center}
+.btn:hover{background:#096535}
+section{padding:35px 16px;scroll-margin-top:10px}
+section h2{text-align:center;margin-top:0;font-size:26px}
+.intro{text-align:center;max-width:750px;margin:0 auto 22px}
+#emplois{background:#e4f3ff}
+#produits{background:#fff0dc}
+#conseils{background:#f0e8ff}
+#contact{background:#e4f6e9}
+.search-box{max-width:700px;margin:20px auto;display:grid;grid-template-columns:1fr 1fr;gap:10px}
+input{width:100%;padding:13px;border:1px solid #b9cbd4;border-radius:8px;font-size:15px}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;max-width:1100px;margin:22px auto}
+.card{background:white;border-radius:12px;padding:20px;box-shadow:0 3px 12px #00000012;display:flex;flex-direction:column;align-items:flex-start}
+.card h3{margin:0 0 10px;color:#075b38;font-size:20px}
+.card p{margin:6px 0 14px}
+.card .btn{margin-top:auto}
+.product-image{width:100%;height:175px;object-fit:contain;border-radius:8px;margin-bottom:14px;background:white}
+.price{font-size:19px;font-weight:bold;color:#08713c;margin-bottom:14px}
+.center{text-align:center}
+.hidden-offer{display:none}
+#voir-plus{display:block;margin:20px auto}
+.tip{background:white;border-radius:10px;padding:16px;box-shadow:0 2px 8px #0000000d}
+.tip h3{color:#6840a0;margin-top:0}
+.contact-box{background:white;max-width:650px;padding:22px;border-radius:12px;margin:20px auto;text-align:center;box-shadow:0 3px 12px #00000012}
+footer{background:#063e29;color:white;text-align:center;padding:20px 12px}
+footer a{color:white}
+@media(max-width:600px){header h1{font-size:25px}.hero h2{font-size:23px}section h2{font-size:23px}.search-box{grid-template-columns:1fr}.cards{grid-template-columns:1fr}nav{gap:4px}nav a{font-size:14px;padding:7px}}
 </style>
 </head>
-
 <body>
-
-<header>
-  <h1>Emploi Pro Cameroun</h1>
-
-  <p>
-    Des ressources utiles pour trouver des pistes d'emploi
-    et préparer votre candidature au Cameroun.
-  </p>
-
-  <nav>
-    <a href="#emplois">Offres d'emploi</a>
-    <a href="#produits">Nos produits numériques</a>
-    <a href="#contact">Contact</a>
-  </nav>
+<header id="accueil">
+<h1>Emploi Pro Cameroun</h1>
+<p>Votre partenaire pour l'emploi et la réussite professionnelle au Cameroun.</p>
 </header>
 
-<main>
+<nav>
+<a href="#accueil">Accueil</a>
+<a href="#emplois">Nos emplois</a>
+<a href="#produits">Nos produits</a>
+<a href="#conseils">Conseils</a>
+<a href="#contact">Contact</a>
+</nav>
 
-<!-- SECTION 1 : EMPLOIS -->
+<div class="hero">
+<h2>Construisez votre avenir professionnel</h2>
+<p>Recherchez des opportunités d'emploi, préparez votre CV et améliorez vos candidatures.</p>
+<a class="btn" href="#emplois">Voir nos offres d'emploi</a>
+<a class="btn" href="#produits">Voir nos produits</a>
+<a class="btn" href="#contact">Nous contacter</a>
+</div>
+
 <section id="emplois">
-
-  <h2>Offres d'emploi au Cameroun</h2>
-
-  <p class="intro">
-    Recherchez des pistes par métier, secteur ou ville.
-    Les cartes ci-dessous renvoient vers des sites de recherche :
-    elles ne représentent pas des annonces individuelles vérifiées.
-  </p>
-
-  <div class="search-row">
-
-    <input
-      id="jobSearch"
-      type="search"
-      placeholder="Ex. : comptable, stage, technicien..."
-      aria-label="Rechercher un emploi"
-    >
-
-    <select id="cityFilter" aria-label="Choisir une ville">
-      <option value="">Toutes les villes</option>
-      <option>Douala</option>
-      <option>Yaoundé</option>
-      <option>Bafoussam</option>
-      <option>Garoua</option>
-      <option>Kribi</option>
-      <option>Partout au Cameroun</option>
-    </select>
-
-  </div>
-
-  <p id="resultCount" aria-live="polite"></p>
-
-  <div class="grid" id="jobGrid">
-
-    <article class="job" data-city="Douala"
-      data-terms="commerce vente vendeur commercial marketing">
-      <span class="tag">Douala</span>
-      <span class="tag">Commerce</span>
-      <h3>Commerce et vente</h3>
-      <p>Recherchez des postes commerciaux et des emplois dans la vente.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Douala"
-      data-terms="industrie technique technicien maintenance electricite chaudronnerie">
-      <span class="tag">Douala</span>
-      <span class="tag">Technique</span>
-      <h3>Industrie et métiers techniques</h3>
-      <p>Explorez les pistes en maintenance, électricité et métiers d'atelier.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Douala"
-      data-terms="logistique transport magasinier chauffeur stock">
-      <span class="tag">Douala</span>
-      <span class="tag">Logistique</span>
-      <h3>Transport et logistique</h3>
-      <p>Recherchez des opportunités en transport et gestion de stock.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Douala"
-      data-terms="comptabilite finance gestion banque">
-      <span class="tag">Douala</span>
-      <span class="tag">Finance</span>
-      <h3>Comptabilité et gestion</h3>
-      <p>Explorez les postes en comptabilité, finance et gestion.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Douala"
-      data-terms="informatique numerique developpeur reseaux digital">
-      <span class="tag">Douala</span>
-      <span class="tag">Numérique</span>
-      <h3>Informatique et numérique</h3>
-      <p>Découvrez les pistes en informatique et dans le digital.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Douala"
-      data-terms="stage debutant sans experience emploi">
-      <span class="tag">Douala</span>
-      <span class="tag">Stages</span>
-      <h3>Stages et débutants</h3>
-      <p>Recherchez des annonces ouvertes aux débutants et stagiaires.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Yaoundé"
-      data-terms="administration secretariat assistant bureau">
-      <span class="tag">Yaoundé</span>
-      <span class="tag">Administration</span>
-      <h3>Administration et secrétariat</h3>
-      <p>Explorez les pistes en administration et travail de bureau.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Yaoundé"
-      data-terms="education enseignement formateur professeur">
-      <span class="tag">Yaoundé</span>
-      <span class="tag">Éducation</span>
-      <h3>Éducation et formation</h3>
-      <p>Recherchez des opportunités dans l'enseignement et la formation.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Yaoundé"
-      data-terms="sante medical infirmier laboratoire">
-      <span class="tag">Yaoundé</span>
-      <span class="tag">Santé</span>
-      <h3>Santé et laboratoire</h3>
-      <p>Consultez les pistes du secteur de la santé.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Yaoundé"
-      data-terms="communication media journaliste community manager">
-      <span class="tag">Yaoundé</span>
-      <span class="tag">Communication</span>
-      <h3>Communication et médias</h3>
-      <p>Explorez les métiers de la communication et des médias.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Bafoussam"
-      data-terms="vente commerce gestion">
-      <span class="tag">Bafoussam</span>
-      <span class="tag">Commerce</span>
-      <h3>Commerce à Bafoussam</h3>
-      <p>Recherchez des pistes commerciales dans la région.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Garoua"
-      data-terms="logistique agriculture vente">
-      <span class="tag">Garoua</span>
-      <span class="tag">Logistique</span>
-      <h3>Logistique et commerce à Garoua</h3>
-      <p>Explorez les pistes en commerce et logistique.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Kribi"
-      data-terms="tourisme hotel restauration port transport">
-      <span class="tag">Kribi</span>
-      <span class="tag">Tourisme</span>
-      <h3>Tourisme et services à Kribi</h3>
-      <p>Recherchez dans le tourisme, l'hôtellerie et les services.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Rechercher des offres</a>
-    </article>
-
-    <article class="job" data-city="Partout au Cameroun"
-      data-terms="afec offres emploi recrutement cameroun">
-      <span class="tag">National</span>
-      <span class="tag">Toutes catégories</span>
-      <h3>Offres publiées par AFEC</h3>
-      <p>Consultez la page des offres d'emploi d'AFEC Cameroun.</p>
-      <a class="button" href="https://www.afecameroun.com/index.php/rubriques/offres-afec/offres-emploi.html" target="_blank" rel="noopener">Voir les offres AFEC</a>
-    </article>
-
-    <article class="job" data-city="Partout au Cameroun"
-      data-terms="jobincamer toutes villes tous secteurs">
-      <span class="tag">National</span>
-      <span class="tag">Toutes catégories</span>
-      <h3>Recherche nationale</h3>
-      <p>Consultez les annonces disponibles et vérifiez leurs dates de publication.</p>
-      <a class="button" href="https://www.jobincamer.com/" target="_blank" rel="noopener">Visiter Job in Cameroun</a>
-    </article>
-
-  </div>
-
-  <p id="noResults" class="notice hidden">
-    Aucun résultat ne correspond à votre recherche. Essayez un autre mot-clé.
-  </p>
-
-  <p class="notice">
-    Conseil : vérifiez toujours la date de publication, l'entreprise
-    et les conditions de candidature. Méfiez-vous des demandes de paiement
-    pour obtenir un emploi.
-  </p>
-
+<h2>Offres d'emploi au Cameroun</h2>
+<p class="intro">Choisissez une catégorie et consultez les recherches d'offres correspondantes. Vérifiez toujours les annonces auprès du recruteur.</p>
+<div class="search-box">
+<input id="recherche-mot" type="text" placeholder="Métier ou mot-clé..." aria-label="Rechercher un métier">
+<input id="recherche-ville" type="text" placeholder="Ville : Douala, Yaoundé..." aria-label="Rechercher une ville">
+</div>
+<div class="cards" id="liste-emplois">
+<article class="card job-card"><h3>Emplois à Douala</h3><p>Consultez les recherches d'offres dans la ville de Douala.</p><a class="btn job-link" href="https://www.google.com/search?q=offres+d%27emploi+Douala+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card"><h3>Emplois à Yaoundé</h3><p>Recherchez des opportunités professionnelles à Yaoundé.</p><a class="btn job-link" href="https://www.google.com/search?q=offres+d%27emploi+Yaounde+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card"><h3>Stages et formations</h3><p>Recherchez des offres de stage et de formation.</p><a class="btn job-link" href="https://www.google.com/search?q=offres+de+stage+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card"><h3>Emplois en informatique</h3><p>Recherchez des postes dans l'informatique et le numérique.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+informatique+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card"><h3>Emplois en commerce</h3><p>Recherchez des postes en vente, commerce et marketing.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+commercial+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card hidden-offer"><h3>Emplois en comptabilité</h3><p>Recherchez des postes en comptabilité et finance.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+comptable+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card hidden-offer"><h3>Emplois en secrétariat</h3><p>Recherchez des postes administratifs et de secrétariat.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+secretaire+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card hidden-offer"><h3>Emplois en industrie</h3><p>Recherchez des postes en production et maintenance.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+industrie+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card hidden-offer"><h3>Emplois en logistique</h3><p>Recherchez des postes en transport et logistique.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+logistique+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+<article class="card job-card hidden-offer"><h3>Emplois pour débutants</h3><p>Recherchez des postes accessibles aux nouveaux candidats.</p><a class="btn job-link" href="https://www.google.com/search?q=emploi+debutant+sans+experience+Cameroun" target="_blank" rel="noopener">Voir les offres</a></article>
+</div>
+<p class="center" id="aucun-resultat" style="display:none">Aucune catégorie ne correspond à votre recherche.</p>
+<button class="btn" id="voir-plus" type="button">Voir plus d'offres</button>
 </section>
 
-<!-- SECTION 2 : PRODUITS -->
 <section id="produits">
-
-  <h2>Nos produits numériques</h2>
-
-  <p class="intro">
-    Des outils pratiques pour préparer votre candidature.
-    Les achats se font sur notre boutique PayDigitX.
-  </p>
-
-  <div class="grid">
-
-    <article class="product">
-      <img src="file_0000000027ac820e92b7575278bf2509.png"
-        alt="Couverture du guide Réussir son CV au Cameroun">
-      <h3>Réussir son CV au Cameroun</h3>
-      <p><strong>2 000 FCFA</strong></p>
-      <a class="button"
-        href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/reussir-son-cv-au-cameroun"
-        target="_blank" rel="noopener">Acheter sur PayDigitX</a>
-    </article>
-
-    <article class="product">
-      <img src="file_000000002e20820ea7f2546d3d052a5e.png"
-        alt="Couverture des 15 modèles de lettres de motivation">
-      <h3>15 modèles de lettres de motivation</h3>
-      <p><strong>1 000 FCFA</strong></p>
-      <a class="button"
-        href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/15-modeles-de-lettres-de-motivation"
-        target="_blank" rel="noopener">Acheter sur PayDigitX</a>
-    </article>
-
-    <article class="product">
-      <img src="file_00000000307481f4a81bb29982e97153.png"
-        alt="Couverture du guide de préparation aux entretiens">
-      <h3>Guide de préparation aux entretiens d'embauche</h3>
-      <p><strong>1 500 FCFA</strong></p>
-      <a class="button"
-        href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/guide-de-preparation-aux-entretiens-d-embauche"
-        target="_blank" rel="noopener">Acheter sur PayDigitX</a>
-    </article>
-
-  </div>
-
-  <p style="text-align:center;margin-top:20px">
-    <a class="button"
-      href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun"
-      target="_blank" rel="noopener">Voir nos produits sur PayDigitX</a>
-  </p>
-
+<h2>Nos produits numériques</h2>
+<p class="intro">Des outils pratiques pour préparer vos candidatures et améliorer votre recherche d'emploi.</p>
+<div class="cards">
+<article class="card">
+<img class="product-image" src="file_0000000027ac820e92b7575278bf2509.png" alt="Guide Réussir son CV au Cameroun" loading="lazy">
+<h3>Réussir son CV au Cameroun</h3><p>Apprenez à mieux structurer votre CV et présenter vos compétences.</p><div class="price">2 000 FCFA</div>
+<a class="btn" href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/reussir-son-cv-au-cameroun" target="_blank" rel="noopener">Acheter</a>
+</article>
+<article class="card">
+<img class="product-image" src="file_000000002e20820ea7f2546d3d052a5e.png" alt="15 modèles de lettres de motivation" loading="lazy">
+<h3>15 modèles de lettres de motivation</h3><p>Des modèles à adapter au poste et à l'entreprise.</p><div class="price">1 000 FCFA</div>
+<a class="btn" href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/15-modeles-de-lettres-de-motivation" target="_blank" rel="noopener">Acheter</a>
+</article>
+<article class="card">
+<img class="product-image" src="file_00000000307481f4a81bb29982e97153.png" alt="Guide de préparation aux entretiens" loading="lazy">
+<h3>Guide de préparation aux entretiens</h3><p>Préparez vos réponses et vos entretiens d'embauche.</p><div class="price">1 500 FCFA</div>
+<a class="btn" href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun/product/guide-de-preparation-aux-entretiens-d-embauche" target="_blank" rel="noopener">Acheter</a>
+</article>
+</div>
+<div class="center"><a class="btn" href="https://paydigitx.com/store/https-tchouamkamtchouamkam-svg-github-io-emploi-pro-cameroun" target="_blank" rel="noopener">Voir tous nos produits</a></div>
 </section>
 
-<!-- SECTION 3 : CONTACT -->
+<section id="conseils">
+<h2>Conseils pour réussir votre candidature</h2>
+<p class="intro">Quelques bonnes pratiques pour renforcer votre dossier.</p>
+<div class="cards">
+<article class="tip"><h3>1. Préparez un CV clair</h3><p>Présentez vos compétences, votre formation et vos expériences. Adaptez votre CV au poste visé.</p></article>
+<article class="tip"><h3>2. Personnalisez votre lettre</h3><p>Expliquez pourquoi vous postulez et ce que vous pouvez apporter à l'entreprise.</p></article>
+<article class="tip"><h3>3. Préparez l'entretien</h3><p>Renseignez-vous sur l'entreprise et entraînez-vous à présenter votre parcours.</p></article>
+</div>
+<div class="center"><a class="btn" href="#produits">Voir nos produits</a></div>
+</section>
+
 <section id="contact">
-
-  <h2>Contact</h2>
-
-  <p>
-    Une question sur nos ressources numériques ?
-    Écrivez-nous sur WhatsApp.
-  </p>
-
-  <a class="button"
-    href="https://wa.me/237689375532"
-    target="_blank" rel="noopener">Écrire sur WhatsApp</a>
-
-  <p>+237 689 37 55 32</p>
-
+<h2>Contactez Emploi Pro Cameroun</h2>
+<p class="intro">Une question sur nos produits ? Contactez-nous sur WhatsApp.</p>
+<div class="contact-box">
+<h3>Nous sommes à votre écoute</h3>
+<p><strong>WhatsApp :</strong> +237 689 37 55 32</p>
+<a class="btn" href="https://wa.me/237689375532" target="_blank" rel="noopener">Contacter sur WhatsApp</a>
+<p>Découvrez également nos produits numériques.</p>
+<a class="btn" href="#produits">Voir nos produits</a>
+</div>
 </section>
 
-</main>
-
-<footer>
-  © <span id="year"></span> Emploi Pro Cameroun. Tous droits réservés.
-</footer>
+<footer><p>© 2026 Emploi Pro Cameroun. Tous droits réservés.</p><p><a href="#accueil">Retour en haut</a></p></footer>
 
 <script>
-(function () {
-  const search = document.getElementById("jobSearch");
-  const city = document.getElementById("cityFilter");
-  const cards = Array.from(document.querySelectorAll("#jobGrid .job"));
-  const count = document.getElementById("resultCount");
-  const noResults = document.getElementById("noResults");
+const motCle=document.getElementById("recherche-mot");
+const ville=document.getElementById("recherche-ville");
+const cartes=Array.from(document.querySelectorAll(".job-card"));
+const boutonPlus=document.getElementById("voir-plus");
+const messageVide=document.getElementById("aucun-resultat");
+let toutAfficher=false;
 
-  function filterJobs() {
-    const query = search.value.trim().toLocaleLowerCase("fr");
-    const selectedCity = city.value;
-    let visible = 0;
-
-    cards.forEach(function (card) {
-      const text = (
-        card.innerText + " " + (card.dataset.terms || "")
-      ).toLocaleLowerCase("fr");
-
-      const matchesQuery = !query || text.includes(query);
-      const matchesCity =
-        !selectedCity || card.dataset.city === selectedCity;
-
-      const show = matchesQuery && matchesCity;
-      card.classList.toggle("hidden", !show);
-
-      if (show) visible++;
-    });
-
-    count.textContent =
-      visible + (visible > 1
-        ? " résultats affichés."
-        : " résultat affiché.");
-
-    noResults.classList.toggle("hidden", visible !== 0);
-  }
-
-  search.addEventListener("input", filterJobs);
-  city.addEventListener("change", filterJobs);
-
-  document.getElementById("year").textContent =
-    new Date().getFullYear();
-
-  filterJobs();
-})();
+function filtrerEmplois(){
+ const mot=motCle.value.trim().toLocaleLowerCase("fr");
+ const lieu=ville.value.trim().toLocaleLowerCase("fr");
+ let nombreVisible=0;
+ cartes.forEach((carte,index)=>{
+  const texte=carte.innerText.toLocaleLowerCase("fr");
+  const correspond=(!mot||texte.includes(mot))&&(!lieu||texte.includes(lieu));
+  const visible=correspond&&(toutAfficher||index<5);
+  carte.style.display=visible?"flex":"none";
+  if(visible)nombreVisible++;
+ });
+ const rechercheActive=mot!==""||lieu!=="";
+ boutonPlus.style.display=!rechercheActive&&cartes.length>5?"block":"none";
+ boutonPlus.textContent=toutAfficher?"Voir moins d'offres":"Voir plus d'offres";
+ messageVide.style.display=nombreVisible===0?"block":"none";
+}
+boutonPlus.addEventListener("click",()=>{
+ toutAfficher=!toutAfficher;
+ filtrerEmplois();
+ if(!toutAfficher)document.getElementById("emplois").scrollIntoView({behavior:"smooth"});
+});
+motCle.addEventListener("input",filtrerEmplois);
+ville.addEventListener("input",filtrerEmplois);
+filtrerEmplois();
 </script>
-
 </body>
 </html>
